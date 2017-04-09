@@ -12,6 +12,7 @@ ifeq ($(BOARD_HAVE_QCOM_FM),true)
 LOCAL_SRC_FILES := $(call all-java-files-under, qcom/fmradio)
 LOCAL_JNI_SHARED_LIBRARIES := libqcomfm_jni
 
+LOCAL_SHARED_LIBRARIES := liblog
 LOCAL_MODULE:= qcom.fmradio
 
 LOCAL_ADDITIONAL_DEPENDENCIES := qcom.fmradio.xml

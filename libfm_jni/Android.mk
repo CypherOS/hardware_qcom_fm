@@ -20,6 +20,7 @@ LOCAL_SHARED_LIBRARIES := \
     libcutils \
     liblog \
     libdl \
+    liblog \
     libmedia \
     libnativehelper \
 
